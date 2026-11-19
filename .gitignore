@@ -1,0 +1,30 @@
+# API keys and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# User documents and generated files
+data/uploads/
+requirements-full.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+data/documents/*.pdf
+
+tests/
