@@ -17,6 +17,18 @@ The project was developed to explore practical applications of RAG, vector embed
 - **Separate Chat Sessions** — each Telegram chat has its own active document.
 - **CLI Interface** — interact with CourseMate through the terminal.
 
+## 🎬 Demo / Демонстрация
+
+[▶ Watch CourseMate Demo](https://drive.google.com/drive/folders/1Tb1iKqW6kpbgY29XiYIs5Iha9s-C03Dm?usp=drive_link)
+
+[🤖 Telegram Bot](https://t.me/CourseMateProjectBot)
+
+**EN:** The bot runs locally and is not hosted 24/7.
+Watch the video to see it in action.
+
+**RU:** Бот запускается локально и не работает круглосуточно.
+Посмотрите видеодемонстрацию его работы.
+
 ## Architecture
 
 ### Document Processing
