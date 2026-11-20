@@ -29,24 +29,6 @@ MAX_PDF_SIZE = 10 * 1024 * 1024
 
 sessions = {}
 
-class MockAgent:
-    def __init__(self, pipeline):
-        self.pipeline = pipeline
-
-    def run(self, question):
-        results = self.pipeline.search(question, top_k=3)
-
-        if not results:
-            return "Ничего не найдено."
-
-        return "\n\n".join(
-            f"Документ: {r['document']}\n"
-            f"Страница: {r['page']}\n"
-            f"Фрагмент: {r['text'][:300]}"
-            for r in results
-        )
-
-
 def register_pdf(chat_id, file_path):
     pipeline = RAGPipeline(file_path)
     agent = MiniAgent(pipeline)
